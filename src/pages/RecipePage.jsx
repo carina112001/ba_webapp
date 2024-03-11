@@ -8,10 +8,10 @@ function RecipePage() {
   
   let params = useParams();
 
-  const [details, setDetails] = useState(
+  const [details] = useState(
     recipes.find((recipe) => recipe.id === parseInt(params.item, 10))
   );
-
+  
   const [activeTab, setActiveTab] = useState("instructions");
 
   return (
