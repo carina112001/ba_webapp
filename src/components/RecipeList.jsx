@@ -33,7 +33,7 @@ const Card = styled(NavLink)`
 `;
 
 const Container = styled.div`
-  padding: 100px;
+  padding: 50px;
   width: 80%;
   max-width: 1280px;
   margin: 0 auto;
